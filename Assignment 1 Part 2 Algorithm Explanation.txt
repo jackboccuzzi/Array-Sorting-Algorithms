@@ -1,0 +1,3 @@
+Assignment 01 - Part 2 - Algorithm Description
+
+For this "quicker" merge sort algorithm, I first started off by trying to get the indices for the sorted regions. I was able to do that by using my "sortRegions()" and "findEndOfRegion()" functions. With the use of these two functions I produce an ArrayList of int arrays containing the start and end indexes of the sorted sub-arrays. I am able to merge them back together using a similar implementation of merge sort. I also combine the indices of the sorted sub-arrays to reduce the amount of int arrays in the arrayList produced; eventually you will have one int array containing the start and end index of the entire sorted array.
